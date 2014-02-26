@@ -1,0 +1,2 @@
+module HeavyHelper
+end
