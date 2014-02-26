@@ -21,7 +21,9 @@ span.Heavy {
 }
 
 div.Content {
+  margin-top: 20px;
   width: 800px;
   overflow-wrap: break-word;
+  line-height: 50px;
 }
 

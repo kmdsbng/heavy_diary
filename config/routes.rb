@@ -1,6 +1,7 @@
 HeavyDialy::Application.routes.draw do
   root 'heavy#index'
   namespace :heavy do
+    get "/", :action => "index"
     get "index"
     post "append"
   end
